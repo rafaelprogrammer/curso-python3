@@ -55,9 +55,38 @@ from types import {
 
 [6] - Espaços em expressões de instruções.
 
+# Não faça isso
+funcao( algo[ 1 ], { outro: 2 } )
+
+# Faça
+funcao(algo[1], {outro: 2})
+
+# Não faça
+algo (1)
+
+# Faça
+algo(1)
+
+# Não faça
+dict ['chave'] = lista [indice]
+
+# Faça
+dict['chave'] = lista[indice]
+
+# Não faça
+
+x    =1
+y    =2
+variavel longa = 5
+# Faça
+x = 1
+y = 5
+variavel_longa = 5
+
+[7] - Termine sempre uma instrução com uma nova linha
+Ex: final com uma linha em branco
+
 """
-
-
 
 
 
